@@ -67,7 +67,11 @@ In the future, I plan to incorporate a set of utility functions to streamline co
 
 1. Clone this repository to your local machine.
 2. Create a virtual environment and activate it. (you can use Miniconda)
-3. Install the required dependencies using `environment.yml`. Or enter the following cmds in the venv with Python:
+3a. Install the required dependencies using `environment.yml`. 
+```
+conda env create -f environment.yml
+```
+3b. Or enter the following cmds in the venv with Python:
 ```
 pip install notebook pandas matplotlib numpy seaborn scikit-learn xgboost tqdm
 ```
