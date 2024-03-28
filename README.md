@@ -72,7 +72,7 @@ In the future, I plan to incorporate a set of utility functions to streamline co
     ```
     conda env create -f environment.yml
     ```
-    - Or enter the following cmds in the venv with Python:
+    - Or pip install:
     ```
     pip install notebook pandas matplotlib numpy seaborn scikit-learn xgboost tqdm
     ```
