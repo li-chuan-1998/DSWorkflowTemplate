@@ -27,20 +27,21 @@ DSWorkflowTemplate/
 │   └── external/             # Data from third-party sources.
 │
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb       # Data cleaning/preprocessing.
-│   ├── 02_exploratory_analysis.ipynb# Exploratory data analysis.
-│   ├── 03_feature_engineering.ipynb # Feature engineering.
-│   ├── 04_model_training.ipynb      # Model training scripts.
-│   └── 05_model_evaluation.ipynb    # Model evaluation/validation.
+│   ├── 01_data_cleaning.ipynb        # Data cleaning/preprocessing.
+│   ├── 02_exploratory_analysis.ipynb # Exploratory data analysis.
+│   ├── 03_feature_engineering.ipynb  # Feature engineering.
+│   ├── 04_model_training.ipynb       # Model training scripts.
+│   └── 05_model_evaluation.ipynb     # Model evaluation/validation.
 │
-├── src/
+├── src/                      # Source code for use in this project.
 │   ├── __init__.py           # Makes src a Python module.
-│   ├── data/                 # Scripts to download/generate data.
+│   ├── data/                 # Scripts to download or generate data.
 │   ├── features/             # Scripts to turn raw data into features.
-│   ├── models/               # Model training and prediction.
-│   └── visualization/        # Data visualization scripts.
+│   ├── models/               # Scripts for model training and prediction.
+│   ├── notebook/             # Scripts for jupyter notebooks
+│   └── visualization/        # Scripts for visualizing the data.
 │
-├── models/                   # Trained models, predictions, summaries.
+├── models/                   # Trained and serialized models, model predictions, model summaries.
 │
 ├── reports/                  # Analysis as HTML, PDF, LaTeX, etc.
 │   └── figures/              # Generated graphics and figures.
@@ -60,11 +61,14 @@ DSWorkflowTemplate/
 
 ## Utilizing Utility Functions
 
-In the future, I plan to incorporate a set of utility functions to streamline common data science tasks, such as data validation, feature extraction, and model evaluation. These utilities will be housed in the `src/utils/` directory. This section will serve as a hub for enhancing productivity and ensuring consistency across projects.
+In the future, I plan to incorporate a set of utility functions to streamline common data science tasks, such as data validation, feature extraction, and model evaluation. These utilities will be housed in the `src/` directory. This section will serve as a hub for enhancing productivity and ensuring consistency across projects.
 
 ## Getting Started
 
 1. Clone this repository to your local machine.
-2. Create a virtual environment and activate it.
-3. Install the required dependencies using `environment.yml`.
+2. Create a virtual environment and activate it. (you can use Miniconda)
+3. Install the required dependencies using `environment.yml`. Or enter the following cmds in the venv with Python:
+```
+pip install notebook pandas matplotlib numpy seaborn scikit-learn xgboost tqdm
+```
 4. Navigate through the notebook templates in the `notebooks/` directory to start your project.

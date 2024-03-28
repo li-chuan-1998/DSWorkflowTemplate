@@ -12,6 +12,7 @@ def create_project_structure(base_path):
         "src/data",
         "src/features",
         "src/models",
+        "src/notebook",
         "src/visualization",
         "models",
         "reports",
