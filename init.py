@@ -40,7 +40,7 @@ def create_project_structure(base_path):
     # Create placeholder Jupyter notebooks
     notebooks = [
         "01_data_cleaning.ipynb",
-        "02_exploratory_analysis.ipynb",
+        "02_exploratory_data_analysis.ipynb",
         "03_feature_engineering.ipynb",
         "04_model_training.ipynb",
         "05_model_evaluation.ipynb",
