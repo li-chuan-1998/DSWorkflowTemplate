@@ -51,7 +51,7 @@ def stack_dfs_mul(folder, limit=None):
     else:
         return pd.DataFrame()
     
-def save(df:pd.DataFrame, filename:str, folder:str="data/interim/"):
+def save_df(df:pd.DataFrame, filename:str, folder:str="../data/interim/"):
     # by default the file will be saved in cwd, and in csv format
     df.to_csv(f"{folder}/{filename}", index=False)
     print(f"Data saved at {folder}.")

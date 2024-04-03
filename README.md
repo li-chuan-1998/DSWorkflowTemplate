@@ -77,3 +77,8 @@ In the future, I plan to incorporate a set of utility functions to streamline co
     pip install notebook pandas matplotlib numpy seaborn scikit-learn xgboost tqdm
     ```
 4. Navigate through the notebook templates in the `notebooks/` directory to start your project.
+5. Run the following code to make `src` folder as module in python
+    ```
+    pip install -e .
+    ```
+    This command tells pip to find the setup.py file in the current directory and install the specified package in a way that allows you to edit the source code and have the changes reflected immediately.
