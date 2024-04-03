@@ -27,11 +27,11 @@ DSWorkflowTemplate/
 │   └── external/             # Data from third-party sources.
 │
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb        # Data cleaning/preprocessing.
-│   ├── 02_exploratory_data_analysis.ipynb # Exploratory data analysis.
-│   ├── 03_feature_engineering.ipynb  # Feature engineering.
-│   ├── 04_model_training.ipynb       # Model training scripts.
-│   └── 05_model_evaluation.ipynb     # Model evaluation/validation.
+│   ├── 01_data_cleaning.ipynb              # Data cleaning/preprocessing.
+│   ├── 02_exploratory_data_analysis.ipynb  # Exploratory data analysis.
+│   ├── 03_feature_engineering.ipynb        # Feature engineering.
+│   ├── 04_model_training.ipynb             # Model training scripts.
+│   └── 05_model_evaluation.ipynb           # Model evaluation/validation.
 │
 ├── src/                      # Source code for use in this project.
 │   ├── __init__.py           # Makes src a Python module.
